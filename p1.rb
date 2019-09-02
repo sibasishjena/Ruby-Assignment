@@ -12,8 +12,8 @@ print <<EOF
 EOF
 =end
 
-CT=100
-CT=200
-puts CT
+#CT=100
+CT="Go Ruby\nRuby\n"
+print CT.gsub(/\s/,"")
 puts __FILE__
 puts __LINE__
